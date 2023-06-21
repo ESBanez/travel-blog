@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#travel{
+    
+    border-top: 3rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 3rem;
+         
+}
+
+
+body {
+    background-image: url(./photos/wallpaper.jpg);
+    background-size: cover;
+    
+}
+
+#hikers {
+    margin-left: 12rem;
+}
+
+.nav-item {
+    font-size: larger;
+}
+aside {margin: 50px; height: 200px; width: 900px; padding: 10px; border-style: solid; border-width: 10;
+    background-color: greenyellow; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(185, 183, 202), rgb(153, 160, 221)); 
+    display: flex;
+    justify-content: left;
+    box-sizing: border-box;
+
+
+}
+
+footer {margin: 50px; height: 320px; padding: 10px; border-style: solid; border-width: 10;
+    background-color: greenyellow; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(207, 210, 29), rgb(209, 100, 50)); 
+    justify-content: left;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    body>section>article> { 
+        flex-direction: center;
+        
+
+    }
+ }
